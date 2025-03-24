@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    height: 100vh;
+}
+
+.sidebar {
+    color: white;
+    background-color: black;
+}
+
+.links {
+    list-style: none;
+}
+
+/* .copyright {} */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    /* text-align: center; */
+    margin-left: 5%;
+    justify-content: center;
+}
+
+.texts {
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 20%;
+}
